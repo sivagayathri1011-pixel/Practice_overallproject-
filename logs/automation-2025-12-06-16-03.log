@@ -1,0 +1,54 @@
+15:48:25.015 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:48:25.026 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:48:25.027 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:48:25.036 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:48:25.036 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:48:25.037 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:48:25.038 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:48:25.040 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+15:48:25.041 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+15:48:25.045 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:48:25.045 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:48:25.046 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:48:25.046 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:48:25.068 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\sivat\AppData\Local\Temp\testng-eclipse--1150141664\testng-customsuite.xml
+
+15:48:25.104 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 11 ms.
+15:48:25.487 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@36b0fcd5: 177 ms
+15:48:25.554 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@53e211ee: 67 ms
+15:48:25.582 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@6c67e137: 28 ms
+15:48:25.602 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@60fa3495: 19 ms
+15:48:25.631 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@533b266e: 28 ms
+15:48:25.632 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@6d1d4d7: 0 ms
+15:49:53.869 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Automation\Automationjava\Seleniumautomation\Practice_overallproject\testng.xml"
+15:49:54.429 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Automation\Automationjava\Seleniumautomation\Practice_overallproject\testng.xml
+
+15:50:08.597 [TestNG-tests-1] INFO  testCases.TC002_Loginpage - **** starting tc002 testcase******
+15:50:54.093 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Automation\Automationjava\Seleniumautomation\Practice_overallproject\testng.xml"
+15:50:54.658 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Automation\Automationjava\Seleniumautomation\Practice_overallproject\testng.xml
+
+15:51:00.103 [TestNG-tests-1] INFO  testCases.TC002_Loginpage - **** starting tc002 testcase******
+15:51:47.794 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Automation\Automationjava\Seleniumautomation\Practice_overallproject\testng.xml"
+15:51:48.348 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Automation\Automationjava\Seleniumautomation\Practice_overallproject\testng.xml
+
+15:51:52.851 [TestNG-tests-1] INFO  testCases.TC002_Loginpage - **** starting tc002 testcase******
+16:00:16.119 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Automation\Automationjava\Seleniumautomation\Practice_overallproject\testng.xml"
+16:00:16.749 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Automation\Automationjava\Seleniumautomation\Practice_overallproject\testng.xml
+
+16:00:22.534 [TestNG-tests-1] INFO  testCases.TC002_Loginpage - **** starting tc002 testcase******
+16:01:04.543 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Automation\Automationjava\Seleniumautomation\Practice_overallproject\testng.xml"
+16:01:05.227 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Automation\Automationjava\Seleniumautomation\Practice_overallproject\testng.xml
+
+16:01:12.588 [TestNG-tests-1] INFO  testCases.TC002_Loginpage - **** starting tc002 testcase******
+16:01:41.206 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Automation\Automationjava\Seleniumautomation\Practice_overallproject\testng.xml"
+16:01:41.756 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Automation\Automationjava\Seleniumautomation\Practice_overallproject\testng.xml
+
+16:01:46.401 [TestNG-tests-1] INFO  testCases.TC002_Loginpage - **** starting tc002 testcase******
+16:03:16.986 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Automation\Automationjava\Seleniumautomation\Practice_overallproject\testng.xml"

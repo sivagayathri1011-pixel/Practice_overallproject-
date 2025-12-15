@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Bind to grammar/schema... -->
+<Configuration status="INFO">
+
+<Properties>
+    <Property name="basePath">./logs</Property>
+</Properties>
+
+<Appenders>
+
+    <Console name="Console" target="SYSTEM_OUT">
+        <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+    </Console>
+
+    <RollingFile name="File" fileName="${basePath}/automation.log" 
+                 filePattern="${basePath}/automation-%d{yyyy-MM-dd-HH-mm}.log">
+        <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        <SizeBasedTriggeringPolicy size="5000" />
+    </RollingFile>
+
+</Appenders>
+
+<Loggers>
+    <Root level="debug">
+        <!-- Here you can use multiple log levels All < Trace < Debug < Info < Warn < Error < Fatal -->
+        <!-- <AppenderRef ref="Console"/> -->
+        <AppenderRef ref="File"/>
+    </Root>
+</Loggers>
+
+</Configuration>
+
+<!-- first created this file 
+2.base class lo public Logger logger; and one method add chesinam (logger =LogManager.getLogger(this.getClass()); )idhe method
+3.next just logger ni use chesi mana test class lo info tho date rassam like syso laga
+4. test class lone logs method ni debug method ni call chesam anthe
+5..ee fiel lo loggers lo level debug or anything use cheyochu
+6.size 5000 ante manam entha aina ivochu file exceed 5k iste antakana ekkuva vaste data logs lo inko file ki extend avutadi..
+	-->

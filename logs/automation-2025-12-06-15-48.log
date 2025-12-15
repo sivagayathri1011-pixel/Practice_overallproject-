@@ -1,0 +1,50 @@
+20:52:23.280 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Automation\Automationjava\Seleniumautomation\Practice_overallproject\testng.xml"
+20:52:23.652 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Automation\Automationjava\Seleniumautomation\Practice_overallproject\testng.xml
+
+20:52:23.732 [main] INFO  testCases.TC001_AccountRegistration_test - **** starting TC001_AccountRegistration_test****** 
+20:56:45.883 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Automation\Automationjava\Seleniumautomation\Practice_overallproject\testng.xml"
+20:56:46.275 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Automation\Automationjava\Seleniumautomation\Practice_overallproject\testng.xml
+
+20:56:46.384 [main] INFO  testCases.TC001_AccountRegistration_test - **** starting TC001_AccountRegistration_test****** 
+20:57:58.570 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Automation\Automationjava\Seleniumautomation\Practice_overallproject\testng.xml"
+20:57:58.897 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Automation\Automationjava\Seleniumautomation\Practice_overallproject\testng.xml
+
+20:58:02.926 [main] INFO  testCases.TC001_AccountRegistration_test - **** starting TC001_AccountRegistration_test****** 
+20:58:03.644 [main] INFO  testCases.TC001_AccountRegistration_test - **** entering data into the fields****** 
+20:58:05.267 [main] INFO  testCases.TC001_AccountRegistration_test - **** validating confirm message****** 
+21:00:31.305 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Automation\Automationjava\Seleniumautomation\Practice_overallproject\paralleltesting.xml"
+21:02:41.673 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Automation\Automationjava\Seleniumautomation\Practice_overallproject\paralleltesting.xml"
+21:02:42.026 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Automation\Automationjava\Seleniumautomation\Practice_overallproject\paralleltesting.xml
+
+21:02:47.182 [main] INFO  testCases.TC001_AccountRegistration_test - **** starting TC001_AccountRegistration_test****** 
+21:02:48.193 [main] INFO  testCases.TC001_AccountRegistration_test - **** entering data into the fields****** 
+21:02:50.543 [main] INFO  testCases.TC001_AccountRegistration_test - **** validating confirm message****** 
+21:03:53.646 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Automation\Automationjava\Seleniumautomation\Practice_overallproject\testng.xml"
+21:03:53.943 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Automation\Automationjava\Seleniumautomation\Practice_overallproject\testng.xml
+
+21:04:00.518 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistration_test - **** starting TC001_AccountRegistration_test****** 
+21:04:01.431 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistration_test - **** entering data into the fields****** 
+21:04:02.839 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistration_test - **** validating confirm message****** 
+15:48:24.385 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\sivat\AppData\Local\Temp\testng-eclipse--1150141664\testng-customsuite.xml"
+15:48:24.959 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+15:48:24.964 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 3 ms.
+15:48:24.968 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:48:24.969 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:48:24.970 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:48:24.970 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:48:24.972 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:48:24.972 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:48:24.986 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 10 ms.
+15:48:25.006 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 18 ms.
+15:48:25.008 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:48:25.009 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+15:48:25.010 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:48:25.011 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:48:25.011 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+15:48:25.012 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+15:48:25.014 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
