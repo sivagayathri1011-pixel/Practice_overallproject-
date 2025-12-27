@@ -4,8 +4,8 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import pageObjects.Home_page;
+import pageObjects.MyAccountPage;
 import pageObjects.loginpage;
-import pageObjects.myAccountpage;
 import utilities.DataProviders;
 /*  
 Data is valid   – login success → test pass  → logout
@@ -33,7 +33,7 @@ public class TC003_LoginDDT extends BaseClass{
 	//see my account page ..
 	
 	//validation 
-	myAccountpage map= new myAccountpage(driver);
+	MyAccountPage map= new MyAccountPage(driver);
 	//Assert.assertTrue(,"My Account page is displayed"); 
 	boolean targetPage = map.isMyAccountPageExists();
 	

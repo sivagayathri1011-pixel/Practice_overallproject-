@@ -50,13 +50,13 @@ public class TC001_AccountRegistration_test extends BaseClass
 		String password =alphaNumberString(); //if want alpha numneric value
 		actpage.setPassword(password ); //password and confirm password should be same so saving this in a variable and using here..
 		actpage.setCfrmPassword(password);
-		actpage.setPrivacypolicy();
-		actpage.setcontinue();
+		actpage.acceptPrivacypolicy();
+		actpage.clickContinue();
 		
 		
 		logger.info("**** validating confirm message****** ");
 		//now validation for confirmed message
-		String conmsg = actpage.confirmmessage();
+		String conmsg = actpage.getConfirmmessage();
 		if(conmsg.equals("Your Account Has Been Created!")) 
 		{
 			Assert.assertTrue(true);  //here we are excepting true..if match it is true..

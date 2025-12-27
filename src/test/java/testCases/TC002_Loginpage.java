@@ -4,8 +4,8 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import pageObjects.Home_page;
+import pageObjects.MyAccountPage;
 import pageObjects.loginpage;
-import pageObjects.myAccountpage;
 
 public class TC002_Loginpage extends BaseClass 
 {
@@ -25,7 +25,7 @@ public void loginpage()
 	//see my account page ..
 	
 	//validation 
-	myAccountpage map= new myAccountpage(driver);
+	MyAccountPage map= new MyAccountPage(driver);
 	Assert.assertTrue(map.isMyAccountPageExists(),"My Account page is displayed"); 
 		
 	

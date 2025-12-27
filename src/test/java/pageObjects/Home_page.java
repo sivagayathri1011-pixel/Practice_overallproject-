@@ -42,6 +42,24 @@ public class Home_page extends  basepage
 	@FindBy(xpath="//a[normalize-space()='Login']")
 	WebElement linklogin; //for login
 	
+	// -------- SEARCH LOCATORS --------
+	@FindBy(xpath = "//input[@name='search']")
+	WebElement txtSearch;
+
+	@FindBy(xpath = "//button[@class='btn btn-default btn-lg']")
+	WebElement btnSearch;
+
+	// -------- SEARCH ACTION METHODS --------
+	public void enterProductName(String productName) {
+	    txtSearch.clear();
+	    txtSearch.sendKeys(productName);
+	}
+
+	public void clickSearch() {
+	    btnSearch.click();
+	}
+
+	
 	//action methods
 	
 	public void clickMyAccount() 

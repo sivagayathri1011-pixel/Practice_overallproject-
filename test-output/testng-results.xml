@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="2" failed="3" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-06T17:10:33 IST" name="Suite" finished-at="2025-12-06T17:11:36 IST" duration-ms="62942">
+  <suite started-at="2025-12-27T16:20:56 IST" name="Suite" finished-at="2025-12-27T16:21:37 IST" duration-ms="41445">
     <groups>
+      <group name="Master">
+        <method signature="TC_005_EndToEndTest.endToEndTest()[pri:0, instance:testCases.TC_005_EndToEndTest@57459491]" name="endToEndTest" class="testCases.TC_005_EndToEndTest"/>
+      </group> <!-- Master -->
     </groups>
-    <test started-at="2025-12-06T17:10:33 IST" name="Test" finished-at="2025-12-06T17:11:36 IST" duration-ms="62942">
-      <class name="testCases.TC003_LoginDDT">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@655f7ea]" started-at="2025-12-06T17:10:33 IST" name="setUp" finished-at="2025-12-06T17:10:39 IST" duration-ms="5897" status="PASS">
+    <test started-at="2025-12-27T16:20:56 IST" name="Test" finished-at="2025-12-27T16:21:37 IST" duration-ms="41445">
+      <class name="testCases.TC_005_EndToEndTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_005_EndToEndTest@57459491]" started-at="2025-12-27T16:20:56 IST" name="setUp" finished-at="2025-12-27T16:21:01 IST" duration-ms="5743" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[window]]>
+                <![CDATA[windows]]>
               </value>
             </param>
             <param index="1">
@@ -23,218 +26,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="LoginDDt(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@655f7ea]" started-at="2025-12-06T17:10:41 IST" name="LoginDDt" data-provider="LoginData" finished-at="2025-12-06T17:10:52 IST" duration-ms="10941" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[siva101@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Gayii@10]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Valid]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at testCases.TC003_LoginDDT.LoginDDt(TC003_LoginDDT.java:49)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="endToEndTest()[pri:0, instance:testCases.TC_005_EndToEndTest@57459491]" started-at="2025-12-27T16:21:02 IST" name="endToEndTest" finished-at="2025-12-27T16:21:36 IST" duration-ms="34222" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginDDt -->
-        <test-method signature="LoginDDt(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@655f7ea]" started-at="2025-12-06T17:10:52 IST" name="LoginDDt" data-provider="LoginData" finished-at="2025-12-06T17:11:03 IST" duration-ms="11017" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[pavanoltraining@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[test@123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Valid]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at testCases.TC003_LoginDDT.LoginDDt(TC003_LoginDDT.java:49)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginDDt -->
-        <test-method signature="LoginDDt(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@655f7ea]" started-at="2025-12-06T17:11:03 IST" name="LoginDDt" data-provider="LoginData" finished-at="2025-12-06T17:11:13 IST" duration-ms="10714" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[lakshmi@yahoo.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Laxmi]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginDDt -->
-        <test-method signature="LoginDDt(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@655f7ea]" started-at="2025-12-06T17:11:13 IST" name="LoginDDt" data-provider="LoginData" finished-at="2025-12-06T17:11:24 IST" duration-ms="11076" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[labc123@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[test@123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Valid]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at testCases.TC003_LoginDDT.LoginDDt(TC003_LoginDDT.java:49)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginDDt -->
-        <test-method signature="LoginDDt(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDDT@655f7ea]" started-at="2025-12-06T17:11:25 IST" name="LoginDDt" data-provider="LoginData" finished-at="2025-12-06T17:11:36 IST" duration-ms="11280" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[laks@yahoo.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[cvg]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginDDt -->
-        <test-method is-config="true" signature="tearUp()[pri:0, instance:testCases.TC003_LoginDDT@655f7ea]" started-at="2025-12-06T17:11:36 IST" name="tearUp" finished-at="2025-12-06T17:11:36 IST" duration-ms="223" status="PASS">
+        </test-method> <!-- endToEndTest -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:testCases.TC_005_EndToEndTest@57459491]" started-at="2025-12-27T16:21:36 IST" name="tearUp" finished-at="2025-12-27T16:21:37 IST" duration-ms="1364" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->
-      </class> <!-- testCases.TC003_LoginDDT -->
+      </class> <!-- testCases.TC_005_EndToEndTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -71,17 +71,17 @@ public class AccountRegisterpage extends basepage
 		txtcfrmpassword.sendKeys(pwd);
 	}
 	
-	public void setPrivacypolicy()
+	public void acceptPrivacypolicy()
 	{
 		tglPrivacyPolicy.click();
 	}
 	
-	public void setcontinue()
+	public void clickContinue()
 	{
 		btncontinue.click();
 	}
 	
-	public String confirmmessage() {  //return type is string..
+	public String getConfirmmessage() {  //return type is string..
 		try {
 			return (confirmMsg.getText()); //if sucess getting success message..that one also returning..
 			}
